@@ -47,7 +47,7 @@ function generateSVG(shape, textColor, text, shapeColor) {
             break;
     }
 
-    const svgContent = `<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">${shapeSVG}<text fill="${textColor}" x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="50">${text}</text></svg>`;
+    const svgContent = `<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">${shapeSVG}<text fill="${textColor}" x="150" y="105" dominant-baseline="middle" text-anchor="middle" font-size="50">${text}</text></svg>`;
 
     return svgContent;
 };
